@@ -25,19 +25,19 @@ class ViewController: NSViewController, WebFrameLoadDelegate, WebUIDelegate {
     let SETTINGS: [String: Any]  = [
         
         // Url to browse to.
-        "url": "https://www.google.com",
+        "url": "https://dashboard.adventurebucketlist.com/",
         
-        "title": NSBundle.mainBundle().infoDictionary!["CFBundleName"] as! String,
+        "title": "Adventure Bucket List Dashboard",
         
         // Do you want to use the document title?
-        "useDocumentTitle": true,
+        "useDocumentTitle": false,
         
         // Multilanguage loading text!
         "launchingText": NSLocalizedString("Launching...",comment:"Launching..."),
 
         // Note that the window min height is 640 and min width is 1000 by default. You could change it in Main.storyboard
-        "initialWindowHeight": 640,
-        "initialWindowWidth": 1000,
+        "initialWindowHeight": 800,
+        "initialWindowWidth": 1200,
         
         // Open target=_blank in a new screen?
         "openInNewScreen": false,
